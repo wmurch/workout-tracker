@@ -1,21 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function NavData() {
   return (
     <>
-      <div className="NavLinks">
-        <ul>
+      <div className="Nav">
+        <ul className="NavLinks">
           <li>
             <Link to="/"> Home </Link>
           </li>
           <li>
-            <Link to="/search"> Add User </Link>
+            <Link to="/active"> Active Workout </Link>
           </li>
           <li>
-            <Link to="/build"> View User </Link>
+            <Link to="/build"> Build a Workout </Link>
           </li>
           <li>
-            <Link to="/active"> All Employees </Link>
+            <Link to="/search"> Search Exercises</Link>
           </li>
         </ul>
       </div>

@@ -10,3 +10,33 @@ body {
   margin: 0;
   min-height: 100%;
 }
+.NavLinks {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.homeTitle {
+  color: blueviolet;
+}
+.homeNav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.homeLinks {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.homeLinks li {
+  width: 75%;
+  height: 30%;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  border: 5px grey outset;
+}
+li {
+  margin: 2%;
+}

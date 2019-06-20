@@ -1,9 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Build extends Component {
-  render() {
-    return <div />
-  }
+export default function Build() {
+  return <div />
 }
-
-export default Build

@@ -1,9 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class HomeData extends Component {
-  render() {
-    return <h1>Hello, World!</h1>
-  }
+export default function HomeData() {
+  return <h1>Hello, World!</h1>
 }
-
-export default HomeData

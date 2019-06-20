@@ -1,5 +1,5 @@
 import React from 'react'
 
-export default function Search() {
+export default function SearchData() {
   return <div />
 }

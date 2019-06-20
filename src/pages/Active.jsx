@@ -1,9 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Active extends Component {
-  render() {
-    return <div />
-  }
+export default function Active() {
+  return <div />
 }
-
-export default Active

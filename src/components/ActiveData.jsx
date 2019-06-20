@@ -1,9 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class ActiveData extends Component {
-  render() {
-    return <div />
-  }
+export default function ActiveData() {
+  return <div />
 }
-
-export default ActiveData

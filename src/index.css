@@ -9,14 +9,13 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #94618e;
+  color: lightgray;
 }
 .NavLinks {
   display: flex;
   list-style: none;
   justify-content: center;
-}
-.homeTitle {
-  color: blueviolet;
 }
 .homeNav {
   display: flex;
@@ -32,10 +31,11 @@ body {
 .homeLinks li {
   width: 75%;
   height: 30%;
-  margin: 1rem;
+  /* margin: 1rem; */
   padding: 1rem;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
-  border: 5px grey outset;
+  background-color: lightgray;
+  box-shadow: 12px 12px 2px 1px #49274a(0, 0, 255, 0.2);
+  border: 5px darkviolet outset;
 }
 li {
   margin: 2%;
